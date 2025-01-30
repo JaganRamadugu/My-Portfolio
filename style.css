@@ -11,10 +11,15 @@ header{
     height: 100vh;
     color: white;
     background-color:#F4A261;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 header h1{
-    margin: 0;
+    text-align: center;
     color: #264653;
 }
 h1{
@@ -25,6 +30,7 @@ h1{
 .button{
     height: 40px;
     width: 140px;
+    margin: 15px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -48,6 +54,23 @@ section{
     border: 2px solid #0D1321;
     border-radius: 20px;
     margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ptext{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+form{
+    margin: 5px =px;
 }
 
 .submit{
@@ -65,12 +88,18 @@ section{
     border-radius: 5px;
     border: 2px solid lightgray;
     height: 20px;
+    color: black;
 }
 
 footer{
     height: 100px;
     background-color: black;
     color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 #top{
     height: 40px;
@@ -84,5 +113,5 @@ footer{
     color: #264653;
 }
 #top:hover{
-    background-color: #264653;
+    background-color: #F4A261;
 }
